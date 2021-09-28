@@ -1,0 +1,15 @@
+.align {
+    &--center {
+        margin: 0 auto;
+    }
+
+    &--middle {
+        vertical-align: middle;
+    }
+    &--left {
+        text-align: left;
+    }
+    &--right {
+        text-align: right;
+    }
+}

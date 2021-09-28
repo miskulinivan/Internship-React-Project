@@ -1,0 +1,8 @@
+.sidebarheader {
+    font-weight: bold;
+
+    &__title {
+        display: flex;
+        align-items: center;
+    }
+}

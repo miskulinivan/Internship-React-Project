@@ -1,0 +1,11 @@
+.separator {
+    height: 1px;
+    background-color: #c4c4c4;
+    margin: 12px 0;
+    &--aside {
+        @media (max-width: 1000px) {
+            width: 190px;
+            margin: auto;
+        }
+    }
+}

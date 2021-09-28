@@ -1,0 +1,22 @@
+.names {
+    &__card {
+        display: flex;
+
+        @media (max-width: 1200px) {
+            margin: 10px 0;
+            .col-12 {
+                width: 50%;
+            }
+        }
+    }
+    &__header {
+        margin: 2px 15px;
+        text-align: left;
+    }
+    &__footer {
+        color: #9e9e9e;
+        cursor: pointer;
+    }
+}
+
+//pitat jel se ovo gore moze ....col-12

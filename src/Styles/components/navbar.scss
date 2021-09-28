@@ -1,0 +1,104 @@
+.navbar {
+    padding-left: 0px;
+    font-weight: bold;
+
+    &__element {
+        padding-top: 15px;
+        color: $gray;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        &:hover {
+            background-color: $gray-light;
+            color: $color-primary;
+        }
+
+        &--home {
+            cursor: pointer;
+
+            i {
+                content: url(../../assets/icons/home.svg);
+            }
+
+            &:hover {
+                i {
+                    content: url(../../assets/icons/home--primary.svg);
+                }
+            }
+        }
+
+        &--file {
+            cursor: pointer;
+
+            i {
+                content: url(../../assets/icons/file.svg);
+            }
+
+            &:hover {
+                i {
+                    content: url(../../assets/icons/file--primary.svg);
+                }
+            }
+        }
+        &--star {
+            cursor: pointer;
+
+            i {
+                content: url(../../assets/icons/star.svg);
+            }
+
+            &:hover {
+                i {
+                    content: url(../../assets/icons/star--primary.svg);
+                }
+            }
+        }
+        &--statistics {
+            cursor: pointer;
+
+            i {
+                content: url(../../assets/icons/statistics.svg);
+            }
+
+            &:hover {
+                i {
+                    content: url(../../assets/icons/statistics--primary.svg);
+                }
+            }
+        }
+        &--setting {
+            cursor: pointer;
+
+            i {
+                content: url(../../assets/icons/setting.svg);
+            }
+
+            &:hover {
+                i {
+                    content: url(../../assets/icons/setting--primary.svg);
+                }
+            }
+        }
+        &--support {
+            cursor: pointer;
+
+            i {
+                content: url(../../assets/icons/support.svg);
+            }
+
+            &:hover {
+                i {
+                    content: url(../../assets/icons/support--primary.svg);
+                }
+            }
+        }
+        i {
+            margin-right: 10px;
+            margin-bottom: 2px;
+        }
+        @media (max-width: 1000px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

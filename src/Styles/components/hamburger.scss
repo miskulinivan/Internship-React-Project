@@ -1,0 +1,31 @@
+.hamburger {
+    font-size: 30px;
+    display: none;
+
+    @media (max-width: 1000px) {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__aside {
+        display: none;
+        width: 50px;
+        height: 45px;
+        @media (max-width: 1000px) {
+            cursor: pointer;
+            display: flex;
+        }
+    }
+    &__sidebar {
+        display: none;
+        width: 50px;
+        height: 45px;
+        @media (max-width: 1000px) {
+            cursor: pointer;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+label {
+    cursor: pointer;
+}

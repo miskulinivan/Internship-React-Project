@@ -1,0 +1,108 @@
+.icon {
+    vertical-align: middle;
+    &--home {
+        content: url(../../assets/icons/home.svg);
+    }
+    &--home--primary {
+        content: url(../../assets/icons/home--primary.svg);
+    }
+    &--file {
+        content: url(../../assets/icons/file.svg);
+    }
+    &--file--primary {
+        content: url(../../assets/icons/file--primary.svg);
+    }
+    &--star {
+        content: url(../../assets/icons/star.svg);
+    }
+    &--starred--primary {
+        content: url(../../assets/icons/star--primary.svg);
+    }
+    &--statistics {
+        content: url(../../assets/icons/statistics.svg);
+    }
+    &--statistics {
+        content: url(../../assets/icons/statistics--primary.svg);
+    }
+    &--setting {
+        content: url(../../assets/icons/setting.svg);
+    }
+    &--support {
+        content: url(../../assets/icons/support.svg);
+    }
+    &--search {
+        content: url(../../assets/icons/search.svg);
+    }
+    &--microphone {
+        content: url(../../assets/icons/microphone.svg);
+    }
+    &--clock {
+        content: url(../../assets/icons/clock.svg);
+        width: 18px;
+    }
+    &--clock--white {
+        content: url(../../assets/icons/clock--white.svg);
+        width: 18px;
+    }
+    &--arrowRight {
+        content: url(../../assets/icons/arrow-right.svg);
+        width: 13px;
+    }
+    &--threedots {
+        content: url(../../assets/icons/threedots.svg);
+    }
+    &--arrowDown {
+        content: url(../../assets/icons/arrowDown.svg);
+        cursor: pointer;
+    }
+    &--doc {
+        content: url(../../assets/icons/doc.svg);
+        width: 25px;
+    }
+    &--media {
+        content: url(../../assets/icons/media.svg);
+    }
+    &--image {
+        content: url(../../assets/icons/image.svg);
+    }
+    &--document {
+        content: url(../../assets/icons/document.svg);
+    }
+    &--other {
+        content: url(../../assets/icons/other.svg);
+    }
+    &--unknown {
+        content: url(../../assets/icons/unknown.svg);
+    }
+    &--memory {
+        content: url(../../assets/icons/memory.svg);
+        width: 50px;
+        position: relative;
+        top: -50px;
+    }
+    &--xcircle {
+        content: url(../../assets/icons/xcircle.svg);
+    }
+    &--plus {
+        content: url(../../assets/icons/plus.svg);
+    }
+    &--folder {
+        content: url(../../assets/icons/folder.svg);
+        width: 30px;
+    }
+    &--verticaldots {
+        content: url(../../assets/icons/verticaldots.svg);
+    }
+    &--jpg {
+        content: url(../../assets/icons/jpg.svg);
+        width: 25px;
+    }
+    &--exe {
+        content: url(../../assets/icons/exe.svg);
+        width: 25px;
+    }
+    &--close {
+        content: url(../../assets//icons/close.svg);
+        width: 50px;
+    }
+}

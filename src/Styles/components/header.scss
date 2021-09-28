@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #9e9e9e;
+    vertical-align: center;
+    @media (max-width: 1550px) {
+    }
+
+    &__primary {
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        width: 800px;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: 1000px) {
+            margin-right: 20px;
+            justify-content: space-around;
+        }
+        @media (max-width: 1000px) {
+        }
+    }
+    &--btn {
+        width: 270px;
+        display: flex;
+        justify-content: flex-start;
+        @media (max-width: 800px) {
+        }
+    }
+    &--secondary {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        color: $gray;
+
+        &--threedots {
+            border-radius: $border-rounded;
+            padding: 2px 5px;
+            border: 2px solid $gray;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.btn {
+    cursor: pointer;
+    user-select: none;
+    border-radius: $border-rounded;
+
+    //sizes
+
+    &--sm {
+        padding: 4px 16px;
+        font-size: 14px;
+    }
+    &--base {
+        padding: 8px 32px;
+        font-size: 16px;
+    }
+
+    //types
+    &--primary {
+        background-color: $color-primary;
+        color: $white;
+        @media (max-width: 1000px) {
+            width: 190px;
+            margin: auto;
+        }
+    }
+    &--error {
+        background-color: $color-error;
+        color: $white;
+    }
+    &--secondary {
+        border: none;
+        background-color: white;
+        color: #adadad;
+        cursor: pointer;
+    }
+}

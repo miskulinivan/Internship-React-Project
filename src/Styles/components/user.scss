@@ -1,0 +1,29 @@
+.user {
+    background-color: #f8f8f8;
+    border-radius: 14px;
+    display: inline-block;
+
+    &__image {
+        float: left;
+        border-radius: 1000px;
+        width: 30px;
+        height: 30px;
+        border: 2px white solid;
+    }
+    &--name {
+        width: 150px;
+        height: 20px;
+        margin: 5px 0 0 60px;
+        color: $black;
+    }
+    &__logout {
+        color: #adadad; //ovo vjerojatno ne valja
+        margin: 10px 0;
+        display: flex;
+        justify-content: start;
+        cursor: pointer;
+        @media (max-width: 1000px) {
+            justify-content: center;
+        }
+    }
+}

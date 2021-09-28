@@ -1,0 +1,13 @@
+.anchor {
+    &--primary {
+        color: rgb(160, 160, 160);
+        font-weight: lighter;
+        &.active {
+            color: white;
+        }
+    }
+    &--secondary {
+        color: $white;
+        font-weight: lighter;
+    }
+}
